@@ -37,3 +37,5 @@ require (
 	google.golang.org/genproto v0.0.0-20210303154014-9728d6b83eeb // indirect
 	google.golang.org/grpc v1.36.0 // indirect
 )
+
+replace github.com/taliesins/terraform-provider-hyperv/ => github.com/thomasbuchinger/terraform-provider-hyperv v1.0.3
